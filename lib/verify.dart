@@ -36,20 +36,20 @@ class _MyVerifyState extends State<MyVerify> {
     );
 
     return Scaffold(
-      extendBodyBehindAppBar: true,
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: Icon(
-            Icons.arrow_back_ios_rounded,
-            color: Colors.black,
-          ),
-        ),
-        elevation: 0,
-      ),
+      // extendBodyBehindAppBar: true,
+      // appBar: AppBar(
+      //   backgroundColor: Colors.transparent,
+      //   leading: IconButton(
+      //     onPressed: () {
+      //       Navigator.pop(context);
+      //     },
+      //     icon: Icon(
+      //       Icons.arrow_back_ios_rounded,
+      //       color: Colors.black,
+      //     ),
+      //   ),
+      //   elevation: 0,
+      // ),
       body: Container(
         margin: EdgeInsets.only(left: 25, right: 25),
         alignment: Alignment.center,
